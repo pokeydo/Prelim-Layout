@@ -1,3 +1,15 @@
 h1{
+  text-align: center;
   color: blue;
 }
+
+.circular {
+	margin: auto;
+  width: 250px;
+	height: 250px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(Images/Profile-Picture.png) no-repeat;
+
+  }
