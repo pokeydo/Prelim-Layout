@@ -21,3 +21,8 @@ h1{
   th, td {
       padding: 15px;
   }
+
+  body {
+    background-image: url("Images/90sbg.gif");
+    background-color: #cccccc;
+}
