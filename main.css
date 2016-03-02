@@ -1,6 +1,8 @@
 h1{
   text-align: center;
-  color: blue;
+  color: #ffffff;
+  font-family: Impact;
+  font-size: 100px;
 }
 
 .circular {
@@ -14,15 +16,27 @@ h1{
 
   }
 
-  table, th, td {
-      border: 1px solid black;
-      border-collapse: collapse;
-  }
-  th, td {
-      padding: 15px;
+  body {
+      background-image: url("Images/W0lVpsH.jpg");
+      background-repeat:repeat-y;
+      background-size: 100%;
   }
 
-  body {
-    background-image: url("Images/90sbg.gif");
-    background-color: #cccccc;
-}
+  .container { position:relative; padding:200px 0 0 400px; }
+  #sidebar {
+      border:15px solid #baff00;
+      position:absolute;
+      top:0; bottom:0; left:50px;
+      width:10%;
+      background-color: #FFF;
+  }
+
+  #header { border:15px solid #baff00; width:85%; height:200px;
+      margin:5px 0 15px 0; background-color:#fff;)
+  }
+  #content { border:15px solid #baff00; width:85%; height:1000px;
+      margin:5px 0 15px 0; background-color:#fff;
+  }
+  #footer { border:15px solid #baff00; width:85%; height:300px;
+      margin:5px 0 15px 0; background-color:#fff;
+  }
